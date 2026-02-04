@@ -1,0 +1,57 @@
+
+<!--
+File: index.html
+Author: Vezetéknév Keresztnév
+Copyright: 2024, Vezetéknév Keresztnév
+Group: Csoportnév
+Date: 2024-12-02
+Github: https://github.com/valami12345/
+Licenc: MIT
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Sip</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">    
+  </head>
+  <body>
+    <div class="container">
+        <h1>Tetőszerkezet</h1>
+        <p>Tetőszerkezet tervezése</p>
+
+        <form id="roofForm">
+          <div>
+            <label for="houseWidth">Ház szélessége (méter)</label>
+            <input type="number" id="houseWidth" 
+            value="20" min="1" max="100" class="form-control">
+          </div>
+          <div>
+            <label for="roofPitch">Tető dőlésszöge (°)</label>
+            <input type="number" id="roofPitch" 
+            value="30" min="1" max="100" class="form-control">
+          </div>
+
+          <div>
+            <button type="submit" class="btn btn-primary mt-2">Számít</button>
+          </div>
+
+          <div>
+            <label for="rafterLength">Szarufa hossza (méter)</label>
+            <input type="number" id="rafterLength" 
+            readonly min="1" max="100" class="form-control">
+          </div>
+          <div>
+            <label for="roofHeight">Tető magassága (méter)</label>
+            <input type="number" id="roofHeight" 
+            readonly min="1" max="100" class="form-control">
+          </div>
+        </form>
+
+    </div>
+    <script src="bootstrap.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
