@@ -1,6 +1,11 @@
 # Tetőszerkezet
 
-Tetőszerkezet szervezése
+Tetőszerkezet szervezése.
+
+A szarufa hosszát és a tető magasságát a ház szélességéből és a
+tető dőlésszögéből számítható.
+
+Tesztesetek:
 
 | Ház szélessége | Dőlésszög | Szarufa | Tető magasság |
 | - | - | - | - |
